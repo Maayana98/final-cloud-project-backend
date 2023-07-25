@@ -80,6 +80,6 @@ app.put("/movies/:id", (req,res)=>{
 })
 
 
-app.listen(3010, ()=>{
+app.listen(3000,'0.0.0.0', ()=>{
     console.log("Connected to backend!")
 })
